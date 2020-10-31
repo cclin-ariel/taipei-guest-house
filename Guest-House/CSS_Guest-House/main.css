@@ -1,0 +1,187 @@
+body {
+    background-color: 	#f8f8f8;
+}
+
+#navbarNavDropdown {
+    background: #ffffff;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 19;
+    
+}
+#nav-logo {
+    margin: 0px;
+    position: relative;
+}
+
+#phone-number {
+    margin: 20px 20px 3px 20px;
+}
+.slide {
+    position: relative;
+}
+
+.slide-speed {
+    display: none;
+    position: relative;
+    .transition(.2s ease-in-out left);
+}
+
+.slide p {
+    text-align: center;
+    font-weight: 600;
+    color:#ffffff;
+    font-size: 44px;
+    line-height: 60px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0; 
+}  
+
+
+.container {
+    margin: 80px auto;
+    
+}
+
+main {
+    top: 200px;
+    margin: auto;   
+}
+
+main a {
+    font-family: 'GFS Didot',serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0;
+    color: #666;
+    margin: 10px;
+    padding: 10pxx;
+    
+    a:link {border-bottom: solid gray 0.5px;}     /* 未访问链接*/
+    a:visited {border-bottom: solid gray 1.5px;}  /* 已访问链接 */
+    a:hover {border-bottom: solid gray 1.5px;}  /* 鼠标移动到链接上 */
+}
+
+h2 {
+    font-size: 39px;
+    font-family: 'GFS Didot',serif;
+    color: #404040
+    
+}
+
+h5 {
+    color: #b5c5d3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 29px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    display: block;
+    margin-top: 30px;
+    text-transform: uppercase;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    line-height: 34px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+
+#space {
+    margin-top: 100px;
+}
+
+
+main button {
+    margin: 10px 0px;
+}
+/* bedroom slideshow*/
+.carousel-item {
+    margin-bottom: 300px;
+}
+
+.bedroom-slide {
+    position: relative;
+}
+
+.bedroom-detail {
+    position: absolute;
+    font-weight: 300;
+    color:#6666;
+    font-size: 15px;
+    line-height: 25px;
+    top: 80%;
+    left: 60%;
+    padding: 25px 30px;
+    border: #f8f8f8 solid 0.2px;
+    background-color:  #ffffff; 
+    z-index: 19;
+}
+
+dt {
+    color: #b5c5d3;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-size: 29px;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+
+dd {
+    margin: 10px;
+}
+
+#book-call-button {
+    position: fixed;
+    right: 0.02%;
+    bottom: 0.05%;
+    margin: 3% 1%;
+
+}
+
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+hr.solid {
+    border-top: 2px solid #bbb;
+}
+
+#button-nav {
+    justify-content: space-between;
+    margin: 15px;
+}
+
+#owner-contact {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #003399;
+    text-align: start;
+    margin: 30px auto;
+}
+
+footer {
+    background-color:	#F0F0F0;
+    margin-bottom: 0px;
+}

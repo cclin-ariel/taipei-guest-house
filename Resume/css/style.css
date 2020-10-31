@@ -1,0 +1,55 @@
+h1 {
+    font-family:Arial;
+    align-items: center;
+}
+
+
+nav {
+    background-color: #FFF;
+    position: relative;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0;
+    padding: 0 10px;
+    border: 1px solid #fff;
+}
+
+nav ul {
+    display: inline;
+}
+a {
+    color: #204156;
+    text-decoration: none;
+}
+
+nav a {
+    height: 60px;
+    line-height: 60px;
+    color: #204156;
+    text-decoration: none;
+}
+  
+#article-title {
+    font-family:cursive;
+    text-transform:capitalize;
+}
+.headline {
+    color: firebrick;
+}
+
+h2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: left;
+    width: 70%;
+    font-family:Georgia;
+}
+
+     
