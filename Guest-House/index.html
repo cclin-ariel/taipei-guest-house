@@ -22,7 +22,7 @@
                 </button>
 
                 <div class="row no-gutters collapse navbar-collapse" id="navbarNavDropdown">
-                    <div class="col-md-12" style="justify-content: space-between;">
+                    <div class="col-md-12">
                         <ul class="navbar-nav">
 
                             <li class="nav-item dropdown col-md-3">
@@ -44,22 +44,23 @@
                                     <img src="./company-logo.png" height="85px">
                                 </a>
                             </li>
-                            <li class="nav-item col-md-3 align-items-center">
+                            <li class="nav-item col-md-3">
                                 <div class="row no-gutters">
-                                    <div class="col align-self-end">
+                                    <div class="col">
                                         <p id="phone-number" class="align-items-center">+30 6976907718</p>
                                     </div>
                                     <div class="w-100"></div>
-                                    <a class="col-md-4 column nav-link text-center" href="#">
-                                        <i class="fab fa-facebook" style="font-size: 25px; color: gray;"></i>
-                                    </a>
-                                    <a class="col-md-4 column nav-link text-center" href="#">
-                                        <i class="fab fa-instagram"
-                                            style="font-size: 25px; color: gray; text-align: center;"></i>
-                                    </a>
-                                    <a class="col-md-4 column nav-link text-center" href="#">
-                                        <i class="fab fa-twitter" style="font-size: 25px; color: gray;"></i>
-                                    </a>
+                                    <div class="row no-gutters justify-content-end" style="width: 100%;">
+                                        <a class="col-2 nav-link" href="#">
+                                            <i class="fab fa-facebook" style="font-size: 25px; color: gray;"></i>
+                                        </a>
+                                        <a class="col-2 nav-link" href="#">
+                                            <i class="fab fa-instagram" style="font-size: 25px; color: gray;"></i>
+                                        </a>
+                                        <a class="col-2 nav-link" href="#">
+                                            <i class="fab fa-twitter" style="font-size: 25px; color: gray;"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </li>
 
@@ -71,7 +72,7 @@
             <!--slide-->
             <div id="carouselExampleSlidesOnly" class="carousel slide " data-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active slide-speed">
+                    <div class="carousel-item active">
                         <img class="d-block w-100" src="./index_pics/indexpic-bedroom.jpg" width="100%">
                         <p>MAKE YOURSELF AT HOME</p>
                     </div>
@@ -85,6 +86,7 @@
                     </div>
                 </div>
             </div>
+            <div style="margin-bottom: 100px;"></div>
         </header>
         <main>
             <div class="row no-gutters">
@@ -127,7 +129,7 @@
                             <a href="#">FACILITIES</a>
                         </div>
                         <div id="space" class="col-md-12 column"></div>
-                        <div class="row clearfix">
+                        <div class="row">
                             <div class="col-md-5 column">
                                 <h2>
                                     <em>History, art &amp; architecture side by side HYDRA</em>
@@ -153,10 +155,10 @@
                         </div>
                     </div>
                     <div id="space" class="col-md-12 column"></div>
-                    <div class="row clearfix">
+                    <div class="row">
                         <div class="col-md-12 column">
 
-                            <div class="row clearfix">
+                            <div class="row">
                                 <div class="col-md-1 column"></div>
                                 <div class="col-md-4 column">
                                     <img src="https://images.pexels.com/photos/1005644/pexels-photo-1005644.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
@@ -248,7 +250,7 @@
                                 </a>
                             </div>
                             <!-- 以上幻燈片 ＪＳ -->
-                            <div class="row clearfix">
+                            <div class="row">
                                 <div class="col-md-12 column">
                                     <h2>
                                         <em>Bites, drinks and chilled island vibes</em>
@@ -318,7 +320,7 @@
 
                         </div>
         </main>
-        <footer class="row clearfix">
+        <footer class="row">
             <div class="col-md-12 column">
                 <hr class="solid">
                 <ul id="button-nav" class="nav nav-pills">
@@ -387,26 +389,23 @@
                             </a>
                         </div>
                     </div>
-                </div>
-                <div class="row clearfix">
-                    <div class="col-md-9 column">
+                    <div class="col-md-9">
                         <h3 id="copyright">
                             <span>© 2020 Guesthouse of Taipei | LIN YA CHI - Taipei | Proudly Designed
                                 by</span> <a rel="noreferrer" href="#">NIHONSHU SAIKO Agency</a>
                         </h3>
                     </div>
-                    <div class="col-md-3 column">
-                        <div id="book-call-button" class="row clearfix">
-                            <div class="col-md-6 column">
-                                <button type="button" class="btn btn-primary">BOOK</button>
-                            </div>
-                            <div class="col-md-6 column">
-                                <button type="button" class="btn btn-primary">CALL</button>
-                            </div>
-                        </div>
+                    <div id="book-call-button" class="col-md-3 justify-content-end text-right">
+                        
+                            <button type="button" class="btn btn-primary">BOOK</button>
+                            <button type="button" class="btn btn-primary">CALL</button>
+                        
                     </div>
                 </div>
+                
             </div>
+
+
         </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
