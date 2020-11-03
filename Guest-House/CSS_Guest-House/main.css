@@ -25,14 +25,15 @@ body {
 .slide-speed {
     display: none;
     position: relative;
-    .transition(.2s ease-in-out left);
+    .transition(.0.5s ease-in-out left);
 }
+
 
 .slide p {
     text-align: center;
     font-weight: 600;
     color:#ffffff;
-    font-size: 44px;
+    font-size: 280%;
     line-height: 60px;
     position: absolute;
     top: 35%;
@@ -44,26 +45,15 @@ body {
     padding:0; 
 }  
 
-
-.container {
-    margin: 80px auto;
-    
-}
-
-main {
-    top: 200px;
-    margin: auto;   
-}
-
 main a {
     font-family: 'GFS Didot',serif;
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    border-radius: 0;
     color: #666;
-    margin: 10px;
-    padding: 10pxx;
+    margin: 15px;
+    display: block;
+    
     
     a:link {border-bottom: solid gray 0.5px;}     /* 未访问链接*/
     a:visited {border-bottom: solid gray 1.5px;}  /* 已访问链接 */
@@ -73,8 +63,7 @@ main a {
 h2 {
     font-size: 39px;
     font-family: 'GFS Didot',serif;
-    color: #404040
-    
+    color: #404040    
 }
 
 h5 {
@@ -96,18 +85,22 @@ p {
     line-height: 34px;
     letter-spacing: 1px;
     font-size: 16px;
+    margin-bottom: 0px;
 }
-
 
 #space {
     margin-top: 100px;
 }
 
-
 main button {
     margin: 10px 0px;
 }
 /* bedroom slideshow*/
+#carouselExampleIndicators .w-100 {
+    width: 65%!important;
+    margin: auto;
+}
+    
 .carousel-item {
     margin-bottom: 300px;
 }
@@ -120,11 +113,11 @@ main button {
     position: absolute;
     font-weight: 300;
     color:#6666;
-    font-size: 15px;
+    font-size: 100%;
     line-height: 25px;
     top: 80%;
     left: 60%;
-    padding: 25px 30px;
+    padding: 15px 25px;
     border: #f8f8f8 solid 0.2px;
     background-color:  #ffffff; 
     z-index: 19;
@@ -136,7 +129,7 @@ dt {
     font-style: normal;
     font-size: 29px;
     letter-spacing: 3px;
-    margin: 10px;
+    margin: 0.5em 0em;
 }
 
 dd {
