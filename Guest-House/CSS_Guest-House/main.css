@@ -16,7 +16,9 @@ body {
 }
 
 #phone-number {
-    margin: 20px 20px 3px 20px;
+    margin: auto 12%;
+    display: block;
+    letter-spacing: 3px;
 }
 .slide {
     position: relative;
