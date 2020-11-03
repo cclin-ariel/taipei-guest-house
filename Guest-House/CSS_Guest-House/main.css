@@ -42,12 +42,14 @@ body {
 
 main a {
     font-family: 'GFS Didot',serif;
-    font-size: 18px;
+    font-size: 100%!important;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #666;
-    margin: 15px;
+    color: #666!important;
+    margin: 15px 0px;
     display: block;
+    border-bottom: 1px solid;
+    border-radius: 5px 5px 0 0!important;
     
     
     a:link {border-bottom: solid gray 0.5px;}     /* 未访问链接*/
@@ -83,7 +85,7 @@ p {
     margin-bottom: 0px;
 }
 
-#space {
+.space {
     margin-top: 100px;
 }
 
@@ -97,9 +99,13 @@ main button {
 }
     
 
+.carousel-control-prev, .carousel-control-next {
+    border: 0;
+}
 
 .bedroom-slide {
     position: relative;
+    padding-bottom: 30px;
 }
 
 .bedroom-detail {
@@ -109,7 +115,7 @@ main button {
     color:#6666;
     font-size: 100%;
     line-height: 25px;
-    top: 80%;
+    bottom: -40%;
     left: 60%;
     padding: 15px 25px;
     border: #f8f8f8 solid 0.2px;
@@ -137,11 +143,7 @@ dd {
 }
 
 #book-call-button button{
-    
     border: 1px solid #ffffff;
-    border-radius: 10px;
-   
-
 }
 
 footer {
